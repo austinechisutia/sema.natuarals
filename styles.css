@@ -202,21 +202,23 @@ button{
   background: #583f32;
   padding-bottom: 20px;
   padding-top:50px;
+  position: relative;
 }
 .in-between{
   width: 75%;
-  height: 30vh;
+  height: 200px;
   background-color: #fff;
   z-index: 100;
-  top: 480px;
+  top: -80px;
   border-radius: 10px;
   position: absolute;
   box-shadow: #000 0px 0px 10px;
   display: flex;
   justify-content: space-between;
-  
+  font-weight: 600;  
 
 }
+
 .btn-content{
    padding: 40px;
    display: flex;
@@ -543,8 +545,14 @@ button{
   .menu{
     display: flex;
   }
-  .left-image img{
-    display: none;
+  .first-page{
+    margin-top: 50px;
+  }
+  
+  .main-content{
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
   }
   .right-content button{
     width: 200px;
@@ -587,6 +595,9 @@ button{
   .product2{
     display: flex;
     flex-direction: column;
+  }
+  .in-between{
+    height: 150px;
   }
 }
 
