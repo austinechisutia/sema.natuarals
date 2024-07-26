@@ -211,6 +211,7 @@ button{
 }
 .in-between{
   width: 75%;
+  height: 30%;
   background-color: #fff;
   z-index: 100;
   top: -80px;
@@ -222,6 +223,7 @@ button{
   font-weight: 600;  
 
 }
+
 
 .btn-content{
    padding: 40px;
@@ -260,6 +262,7 @@ button{
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  text-align: center;
 }
 .juice button{
   font-size: 12px;
@@ -513,9 +516,7 @@ button{
 
 
 @media screen and (max-width: 1900px) {
-  .first-page{
-    height: 80vh;
-  }
+ 
 }
 @media screen and (max-width: 1100px) {
  
@@ -565,7 +566,7 @@ button{
   }
 }
 @media screen and (max-width: 800px) {
-
+  
   .header .socials{
     display: none;
   }
@@ -581,9 +582,8 @@ button{
   .menu{
     display: flex;
   }
-  .first-page{
-    margin-top: 50px;
-  }
+  
+ 
   
   .main-content{
     display: flex;
@@ -632,8 +632,7 @@ button{
     display: flex;
     flex-direction: column;
   }
-  .in-between{
-  }
+  
 
 }
 
