@@ -18,6 +18,11 @@ img{
   height: 100%;
   object-fit: cover;
 }
+/* p {
+  color: #4a4e69;
+  font-size: 1.3em;
+  font-weight: 300;
+} */
 
 .image{
   width: 100%;
@@ -206,7 +211,6 @@ button{
 }
 .in-between{
   width: 75%;
-  height: 200px;
   background-color: #fff;
   z-index: 100;
   top: -80px;
@@ -228,9 +232,16 @@ button{
    width: 500px;
    color: #000;
 }
+.btn-content p{
+  font-size: 12px;
+}
 .drop{
   padding-top: 100px;
   color: #fff;
+}
+.drop p{
+  font-size: 12px;
+
 }
 .products{
   display: flex;
@@ -319,7 +330,7 @@ button{
   align-items: center;
   text-align: center;
   justify-content: center;
-  width: 500px;
+  width: 400px;
 }
 .products-container{
   display: flex;
@@ -327,15 +338,18 @@ button{
 }
 .product{
   display: flex;
-  column-gap: 20px;
+  gap: 20px;
  
 
 
 }
 .product .juice{
   background-color: #fff;
-  box-shadow: #000 0px 0px 10px ;
   column-gap: 20px;
+}
+.product .juice:hover{
+  box-shadow: #000 0px 0px 10px ;
+
 }
 .fourth-page{
   padding-top: 50px;
@@ -352,6 +366,7 @@ button{
   display: flex;
   justify-content: space-between;
   text-align: center;
+  gap: 50px;
 }
 
 .right-content,
@@ -372,7 +387,8 @@ button{
 }
 .titles p{
   font-size: 12px;
-  font-weight: 700;
+  font-weight: 400;
+
   margin-bottom: 50px;
 }
 .fourth-image img{
@@ -400,10 +416,10 @@ button{
 }
 .fifth-content1{
   position: absolute;
-  top: 30px;
   display: flex;
   column-gap: 50px;
   color: #fff;
+  gap: 20px;
   
 }
 .fifth-content p{
@@ -480,6 +496,22 @@ button{
   display: flex;
   column-gap: 20px;
 }
+.btn-content p,
+.titles p,
+.review,
+.juice-content p,
+.client-info p{
+  color: rgb(52, 53, 53);
+}
+.review{
+  font-size: 12px;
+  font-weight: 400;
+}
+.client-info p{
+  font-size: 12px;
+}
+
+
 @media screen and (max-width: 1900px) {
   .first-page{
     height: 80vh;
@@ -512,6 +544,7 @@ button{
   .fourth-page{
     font-size: .8em;
   }
+  .fou
   .titles,
   .review{
     font-size: .8em;
@@ -533,7 +566,7 @@ button{
 }
 @media screen and (max-width: 800px) {
   .first-page{
-    height: 50vh;
+    height: 60vh;
   }
   .header .socials{
     display: none;
@@ -579,7 +612,7 @@ button{
   width: 70px;
 }
 
-
+.
   
  
   
@@ -602,7 +635,9 @@ button{
     flex-direction: column;
   }
   .in-between{
-    height: 150px;
+  }
+  .first-page{
+    height: 60vh;
   }
 }
 
