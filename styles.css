@@ -565,9 +565,7 @@ button{
   }
 }
 @media screen and (max-width: 800px) {
-  .first-page{
-    height: 60vh;
-  }
+
   .header .socials{
     display: none;
   }
@@ -612,7 +610,7 @@ button{
   width: 70px;
 }
 
-.
+
   
  
   
@@ -636,8 +634,6 @@ button{
   }
   .in-between{
   }
-  .first-page{
-    height: 60vh;
-  }
+
 }
 
